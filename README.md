@@ -14,7 +14,7 @@ Desktop: 1920px - 1268px
 Tablet : 834px - 1194px
 Phone  : 390px - 844px
 
-==================================================
+==================================================<br />
 User Stories for users:
 
 1. As a user, I want to visualize this website using either my PC, my tablet, or my phone.
@@ -27,7 +27,7 @@ User Stories for users:
 4. As a user, I want to like or review products. So I can share my experience with other users.
 5. As a user, I want to have a shopping cart where I can add the products I'd like to buy.
 
-==================================================
+==================================================<br />
 User Stories for admins:
 
 1. As an admin, I want to add or remove products.
