@@ -1,2 +1,2 @@
-# FS1000-_petStore
+# FS1000_petStore
 Individual Final Project
