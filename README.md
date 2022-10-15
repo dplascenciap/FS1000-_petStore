@@ -4,7 +4,7 @@ Individual Final Project
 Static HTML pages for a mobile responsive application.
 
 The figma design can be found here:
-https://www.figma.com/file/0LwdD8MHOU9qYsYBQZbwv6/Pet-Store---eCommerce?node-id=0%3A1
+- https://www.figma.com/file/0LwdD8MHOU9qYsYBQZbwv6/Pet-Store---eCommerce?node-id=0%3A1
 
 This website should be displayed in a PC. a tablet, and a mobile screen.
 The following breakouts will be used:
