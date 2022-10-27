@@ -15,10 +15,8 @@ The following breakouts will be used:
 ## User Stories for users:
 
 1. As a user, I want to visualize this website using either my PC, my tablet, or my phone.
-2. As a user, I want to create an account so I can perform the following actions:
-    - Save my delivery and payment information.
-    - Place a new order.
-    - Review previous orders.
+2. As a user, I want to save my delivery and payment information.
+3. As a user, I want to review previous orders.
 3. As a user, I want to browse through the catalog and being able to filter products.
    The filter can be based on category, price, reviews.
 4. As a user, I want to like or review products. So I can share my experience with other users.
