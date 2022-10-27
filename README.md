@@ -57,4 +57,4 @@ This section of the website contains the following elements
 
 ### Main Window.
  - This is the main screen. This is a dynamic screen that changes based on the user's actions. When this screen works as a home page, it will display a predefined background picture with a main "Shop Now" button. Once the user scrolls down, the following two sections will be displayed: "Featured Items", and "Deals by pet". When displayed in a Tablet/Phone breakpoint, these options should be reorganized so all of them can be properly displayed.
-  - **This element should be responsive according to the device that is being used.**
+   - **This element should be responsive according to the device that is being used.**
