@@ -33,3 +33,21 @@ The following breakpoints will be used:
     - How many products we've sold.
     - What are the most, or least, popular items.
 4. As an admin, I want to see a list of all our users.
+
+
+## About Pet Store eCommerce.
+
+This is a website dedicated to selling products and services for pets.
+
+This responsive website is divided into three main elements:
+- Navigation Bar
+- Main Window
+- Footer
+
+Refer to the description of each element below:
+
+### Navigation Bar.
+This section of the website contains the following elements
+- Store logo. This element works as a "Home" button. The user will be redirected to the landing page if the user clicks on this element. *This element should be persistent in all the screen breakpoints.*
+- Main shortcuts. These are some of the main actions that a user has access to. When displayed in a Tablet breakpoint, these options should be reorganized so all of them can be properly displayed. When displayed in a Phone breakpoint, these options should be reorganized in a "hamburger menu" so there is enough room on the screen to display all the elements. *This element should be responsive according to the device that is being used.*
+- Shopping Cart. This element works as a link to the user's shopping cart, in other words, this displays the current user's order. When there is at least one element in the cart, the image should be updated to display the number of items in the cart. *This element should be persistent in all the screen breakpoints.*
