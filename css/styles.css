@@ -1,13 +1,67 @@
-/*Set font and background color for body*/
+/* Set font and background color for body*/
 body {
     font-family: 'Inter';
     background-color: black;
+    text-transform: capitalize;
 }
 
-/*Limit max size screen for desktop breakpoint 1920px*/
+/* Limit max size screen for desktop breakpoint 1920px*/
 .container {
     margin: 0 auto;
     width: 100%;
     max-width: 1920px;
+    background-color: black;
+}
+
+/* Adjust store logo size*/
+#img_logo {
+    width: 120px;
+    height: 120px;
+}
+
+/* Adjust shopping cart logo*/
+#img_cart {
+    width: 90px;
+    height: 90px;
+}
+
+/* Navigation bar all sizes*/
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 150px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+/* Navigation items all sizes*/
+.nav-items {
+    display: flex;
+    gap: 4rem;
+}
+
+.nav-items li {
+    display: block;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items a:hover {
+    background-color: orange;
+}
+
+/* Navigation bar - Desktop size*/
+@media screen and (min-width: 1920px) {
+    .navbar {
+    }
 }
