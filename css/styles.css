@@ -102,7 +102,7 @@ body {
 }
 
 /* Shop now button*/
-.shop_now {
+#btn_shop_now {
     position: absolute;
     height: 107px;
     width: 241px;
@@ -116,19 +116,81 @@ body {
     line-height: 36px;
 }
 
-.shop_now:hover {
+#btn_shop_now:hover {
     background-color: #F89C14;
     cursor: pointer;
 }
 
+/* Footer - All sizes*/
 footer {
     display: flex;
     justify-content: space-evenly;
-    gap: 20rem;
-    height: 228px;
+    gap: 10rem;
+    height: 288px;
 }
 
-.copyright {
+/* Adjust h2 font size inside footer*/
+footer h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+footer p, footer li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: block;
+}
+
+footer input {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    width: 440px;
+    height: 54px;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+/* Subscibre section - All sizes*/
+.subscribe {
+    text-align: center;
+}
+
+.btn_div {
+    padding-top: 1rem;
+}
+
+/* Subscribe button*/
+#btn_subs {
+    text-transform: capitalize;
+    width: 217px;
+    height: 54px;
+    background: #F89C14;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+}
+
+#btn_subs:hover {
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+/* Copyright bar*/
+.copyright_bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -138,6 +200,13 @@ footer {
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
+    height: 56px;
+}
+
+/* Social media icons*/
+#img_social_media {
+    width: 376px;
+    height: 129px;
 }
 
 /* Adjust store logo size*/
