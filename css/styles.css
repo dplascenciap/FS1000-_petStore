@@ -121,6 +121,94 @@ body {
     cursor: pointer;
 }
 
+/* Products - All sizes*/
+.products {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.products h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: white;
+}
+
+.left-side {
+    padding-left: 10rem;
+    padding-right: 3rem;
+}
+
+/* Featured items */
+.ft_items {
+    display: flex;
+    gap: 10rem;
+}
+
+/* Pet Collar*/
+#img_pet_collar {
+    width: 262px;
+    height: auto;
+}
+
+/* Dog Toy*/
+#img_dog_toy {
+    width: 252px;
+    height: auto;
+}
+
+/* Vertical Separator*/
+.vertical_separator {
+    border-left: 5px solid white;
+    height: 700px;
+}
+
+.right-side {
+    padding-left: 3rem;
+}
+
+/* Deals by pet*/
+.deals_items {
+    display: flex;
+    align-items: baseline;
+}
+
+.deals_items button {
+    width: 241px;
+    height: 107px;
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: white;
+    text-transform: capitalize;
+}
+
+#img_deal_dog {
+    width: 300px;
+    height: auto;
+}
+
+#img_deal_cat {
+    width: 300px;
+    height: auto;
+}
+
+#img_deal_fish {
+    width: 300px;
+    height: auto;
+}
+
 /* Footer - All sizes*/
 footer {
     display: flex;
