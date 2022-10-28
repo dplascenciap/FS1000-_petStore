@@ -11,6 +11,7 @@ body {
     width: 100%;
     max-width: 1920px;
     background-color: black;
+    color: white;
 }
 
 /* Adjust store logo size*/
@@ -25,7 +26,7 @@ body {
     height: 90px;
 }
 
-/* Navigation bar all sizes*/
+/* Navigation bar - All sizes*/
 .navbar {
     display: flex;
     align-items: center;
@@ -41,7 +42,7 @@ body {
     line-height: 36px;
 }
 
-/* Navigation items all sizes*/
+/* Navigation items - All sizes*/
 .nav-items {
     display: flex;
     gap: 4rem;
@@ -57,11 +58,90 @@ body {
 }
 
 .nav-items a:hover {
-    background-color: orange;
+    background-color: #F89C14
+    ;
 }
 
 /* Navigation bar - Desktop size*/
 @media screen and (min-width: 1920px) {
     .navbar {
+        height: 150px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
     }
+}
+
+/* Main page - All sizes*/
+.main_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 774px;
+}
+
+.main_picture {
+    width: 1470px;
+    height: 662px;
+    position: relative;
+}
+
+/* Main page - Desktop size*/
+@media screen and (min-width: 1920px) {
+    .main_page {
+        height: 774px;
+    }
+}
+
+/* Main picture - Desktop size*/
+@media screen and (min-width: 1920px) {
+    .main_picture {
+        width: 1470px;
+        height: 662px;
+    }
+}
+
+/* Shop now button*/
+.shop_now {
+    position: absolute;
+    height: 107px;
+    width: 241px;
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.shop_now:hover {
+    background-color: #F89C14;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20rem;
+    height: 228px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background-color: #6A50D2;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+/* Adjust store logo size*/
+#img_cards {
+    width: 208px;
+    height: 44px;
 }
