@@ -20,10 +20,26 @@ body {
     height: 120px;
 }
 
+/* Logo - Tablet size*/
+@media screen and (max-width:834px) {
+    #img_logo {
+        width: 100px;
+        height: auto;
+    }
+}
+
 /* Adjust shopping cart logo*/
 #img_cart {
     width: 90px;
     height: 90px;
+}
+
+/* Shopping card - Tablet size*/
+@media screen and (max-width:834px) {
+    #img_cart {
+        width: 70px;
+        height: auto;
+    }
 }
 
 /* Navigation bar - All sizes*/
@@ -50,11 +66,27 @@ body {
 
 .nav-items li {
     display: block;
+    white-space: normal;
 }
 
 .nav-items a {
     text-decoration: none;
     color: black;
+}
+
+/* Navigation items - Tablet size*/
+@media screen and (max-width: 834px) {
+    .nav-items {
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0rem;
+    }
+
+    .nav-items li {
+        display: block;
+        white-space: normal;
+        width: 33%;
+    }
 }
 
 .nav-items a:hover {
@@ -63,12 +95,22 @@ body {
 }
 
 /* Navigation bar - Desktop size*/
-@media screen and (min-width: 1920px) {
+@media screen and (max-width: 1920px) {
     .navbar {
         height: 150px;
         font-weight: 700;
         font-size: 30px;
         line-height: 36px;
+    }
+}
+
+/* Navigation bar - Tablet size*/
+@media screen and (max-width: 834px) {
+    .navbar {
+        height: 150px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
     }
 }
 
@@ -80,9 +122,16 @@ body {
     height: 774px;
 }
 
+/* Main page - Tablet size*/
+@media screen and (max-width: 834px) {
+    .main_page {
+        height: 370px;
+    }
+}
+
 .main_picture {
     width: 1470px;
-    height: 662px;
+    height: auto;
     position: relative;
 }
 
@@ -101,6 +150,14 @@ body {
     }
 }
 
+/* Main picture - Tablet size*/
+@media screen and (max-width: 834px) {
+    .main_picture {
+        width: 95%;
+        height: auto;
+    }
+}
+
 /* Shop now button*/
 #btn_shop_now {
     position: absolute;
@@ -116,6 +173,16 @@ body {
     line-height: 36px;
 }
 
+/* Shop now button - Tablet size*/
+@media screen and (max-width: 834px) {
+    #btn_shop_now {
+        height:80px;
+        width: 180px;
+        font-size: 18px;
+    }
+}
+
+/* Buttun Shop Now - All sizes*/
 #btn_shop_now:hover {
     background-color: #F89C14;
     cursor: pointer;
@@ -139,9 +206,32 @@ body {
     color: white;
 }
 
+.products p {
+    font-style: italic;
+}
+
+/* Products - Tablet size*/
+@media screen and (max-width: 834px) {
+    .products {
+        padding-bottom: 1rem;
+    }
+
+    .products h2 {
+        font-size: 25px;
+    }
+}
+
 .left-side {
     padding-left: 10rem;
     padding-right: 3rem;
+}
+
+/* Left side - Tablet size*/
+@media screen and (max-width: 834px) {
+    .left-side {
+        padding-left: 10rem;
+        padding-right: 0rem;
+    }
 }
 
 /* Featured items */
@@ -150,10 +240,25 @@ body {
     gap: 10rem;
 }
 
+/* Featured items - Tablet size*/
+@media screen and (max-width: 834px) {
+    .ft_items {
+        gap: 5rem;
+    }
+}
+
 /* Pet Collar*/
 #img_pet_collar {
     width: 262px;
     height: auto;
+}
+
+/* Pet Collar - Tablet size*/
+@media screen and (max-width: 834px) {
+    #img_pet_collar {
+        width: 130px;
+        height: auto;
+    }
 }
 
 /* Dog Toy*/
@@ -162,14 +267,38 @@ body {
     height: auto;
 }
 
+/* Dog Toy - Tablet size*/
+@media screen and (max-width: 834px) {
+    #img_dog_toy {
+        width: 130px;
+        height: auto;
+    }
+}
+
 /* Vertical Separator*/
 .vertical_separator {
     border-left: 5px solid white;
     height: 700px;
 }
 
+/* Vertical separator - Tablet size*/
+@media screen and (max-width: 834px) {
+    .vertical_separator {
+        border-left: 5px solid white;
+        height: 450px;
+    }
+}
+
 .right-side {
     padding-left: 3rem;
+}
+
+/* Right ide - Tablet size*/
+@media screen and (max-width: 834px) {
+    .right-side {
+        padding-left: 1rem;
+        padding-right: 10rem;
+    }
 }
 
 /* Deals by pet*/
@@ -178,6 +307,7 @@ body {
     align-items: baseline;
 }
 
+/* Deals buttons*/
 .deals_items button {
     width: 241px;
     height: 107px;
@@ -194,19 +324,55 @@ body {
     text-transform: capitalize;
 }
 
+/* Deals buttons - Tablet size*/
+@media screen and (max-width: 834px) {
+    .deals_items button {
+        width: 115px;
+        height: 60px;
+        font-size: 20px;
+    }
+}
+
+/* Deals Dog*/
 #img_deal_dog {
     width: 300px;
     height: auto;
 }
 
+/* Deals Dog - Tablet size*/
+@media screen and (max-width: 834px) {
+    #img_deal_dog {
+        width: 150px;
+        height: auto;
+    }
+}
+
+/* Deals Cat*/
 #img_deal_cat {
     width: 300px;
     height: auto;
 }
 
+/* Deals Cat - Tablet size*/
+@media screen and (max-width: 834px) {
+    #img_deal_cat {
+        width: 150px;
+        height: auto;
+    }
+}
+
+/* Deals Fish*/
 #img_deal_fish {
     width: 300px;
     height: auto;
+}
+
+/* Deals Fish - Tablet size*/
+@media screen and (max-width: 834px) {
+    #img_deal_fish   {
+        width: 150px;
+        height: auto;
+    }
 }
 
 /* Footer - All sizes*/
@@ -215,6 +381,13 @@ footer {
     justify-content: space-evenly;
     gap: 10rem;
     height: 288px;
+}
+
+/* Footer - Tablet size*/
+@media screen and (max-width: 834px) {
+    footer {
+        gap: 1rem;
+    }
 }
 
 /* Adjust h2 font size inside footer*/
@@ -241,6 +414,14 @@ footer input {
     line-height: 24px;
     width: 440px;
     height: 54px;
+}
+
+/* Footer input - Tablet size*/
+@media screen and (max-width: 834px) {
+    footer input {
+        width: 240px;
+        height: 54px;
+    }
 }
 
 footer ul {
@@ -297,7 +478,15 @@ footer ul {
     height: 129px;
 }
 
-/* Adjust store logo size*/
+/* Social media icons*/
+@media screen and (max-width: 834px) {
+    #img_social_media {
+        width: 170px;
+        height: auto;
+    }
+}
+
+/* Adjust card size*/
 #img_cards {
     width: 208px;
     height: 44px;
